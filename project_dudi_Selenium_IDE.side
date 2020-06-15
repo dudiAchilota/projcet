@@ -1,0 +1,159 @@
+{
+  "id": "c53fdb31-42a5-43a8-99c6-0482ed5d5760",
+  "version": "2.0",
+  "name": "project_dudi",
+  "url": "http://localhost:8080",
+  "tests": [{
+    "id": "b0ff0934-63c7-43e6-8cbc-b0560c5a58d3",
+    "name": "test-dudi",
+    "commands": [{
+      "id": "a2ced9b4-5a18-40b8-a95c-57effbbf3c24",
+      "comment": "",
+      "command": "open",
+      "target": "/dudiAchilota/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b57a671c-f297-4b3b-b23d-82ff5de02f94",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1314x706",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "71fbf339-8cda-4b11-83b2-17bce3bc1f69",
+      "comment": "",
+      "command": "click",
+      "target": "css=h3",
+      "targets": [
+        ["css=h3", "css:finder"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Try Again')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4041eff3-f23c-406e-a696-1b521a715299",
+      "comment": "",
+      "command": "click",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Successfully')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ef73185a-fba9-4222-9aea-de413fd86c03",
+      "comment": "",
+      "command": "click",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Successfully')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "508225aa-d663-406c-aa12-96e2ed8f259b",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Successfully')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4aec30c3-1a53-454d-a6d5-75f0446911ec",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Successfully')]", "xpath:innerText"]
+      ],
+      "value": "Successfully"
+    }, {
+      "id": "11516236-8762-41ae-8de6-ea539efbb30b",
+      "comment": "",
+      "command": "click",
+      "target": "css=body",
+      "targets": [
+        ["css=body", "css:finder"],
+        ["xpath=//body", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3e9958d3-af0d-4bed-bc6e-20ec7cdb44da",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "Dudi Achilota",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d6239fb7-0ecc-4f9e-b250-dc77d3d1246f",
+      "comment": "",
+      "command": "click",
+      "target": "css=h3",
+      "targets": [
+        ["css=h3", "css:finder"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Try Again')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "548e6442-88cc-463f-a078-f1fcf39b18fc",
+      "comment": "",
+      "command": "click",
+      "target": "css=html",
+      "targets": [
+        ["css=html", "css:finder"],
+        ["xpath=//html", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b3a07687-47fa-4f20-a458-1fe51899eaef",
+      "comment": "",
+      "command": "click",
+      "target": "css=html",
+      "targets": [
+        ["css=html", "css:finder"],
+        ["xpath=//html", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a8cf429e-abed-4704-a753-4c7016f835ed",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=h3",
+      "targets": [
+        ["css=h3", "css:finder"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Try Again')]", "xpath:innerText"]
+      ],
+      "value": "Try Again"
+    }, {
+      "id": "caf78567-6ed7-49d1-9e64-1efd5d08a10a",
+      "comment": "",
+      "command": "click",
+      "target": "css=body",
+      "targets": [
+        ["css=body", "css:finder"],
+        ["xpath=//body", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "25e1f94a-7aaf-4d56-a64a-7d5f5f5f814c",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["b0ff0934-63c7-43e6-8cbc-b0560c5a58d3"]
+  }],
+  "urls": ["http://localhost:8080/"],
+  "plugins": []
+}
